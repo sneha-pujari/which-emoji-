@@ -1,0 +1,126 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navigation {
+  padding-top: 1rem;
+  color: white;
+  background-color: #6ee7b7;
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.a1,
+.a2,
+.a3 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.a2 {
+  background-color: #6ee7b7;
+  border-top-left-radius: 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.a1 img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+  padding: 2rem;
+}
+
+.a1 input,
+.a3 input {
+  padding: 1rem;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.button-hover {
+  position: relative;
+  min-width: 230px;
+  margin: 1em;
+  padding: 0.3em;
+  background-color: #047857;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button-hover span {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 17px;
+  color: white;
+}
+
+.a3 h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer {
+  padding-top: 1rem;
+  background-color: #b0f3f1;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline;
+
+  padding-right: 0.5rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.check {
+  padding: 1rem;
+  border-radius: 10px;
+}
